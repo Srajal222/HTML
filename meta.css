@@ -1,0 +1,45 @@
+#parent{
+    background-color: none;
+    border: 2px solid black;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    transition: 3s;
+}
+img{
+    height: 100px;
+    width: 100px;
+    
+}
+#parent:hover img{
+    border-radius: 0%;
+    transition: 3s;
+}
+#parent:hover .one{
+margin-left: 1250px;
+border-radius: 50%;
+transform: rotate(2220deg);
+box-shadow:  white;
+/* fill-opacity: unset; */
+
+}
+#one{
+    background-color: aquamarine;
+    transition-timing-function: cubic-bezier(0.235, 0.463, 0.495, 0.924) ;
+    transform: rotate(3);
+}
+#two{
+    background-color: blueviolet;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+transform: rotate3d(2);
+}
+#three{
+    background-color: rgb(39, 138, 130);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+#four{
+    background-color: yellow;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   
+}
